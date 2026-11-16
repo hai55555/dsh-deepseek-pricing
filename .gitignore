@@ -4,9 +4,6 @@
 # 依赖
 node_modules/
 
-# 图标工作文件（Inkscape 源文件，不随仓库发布）
-icon8.svg
-
 # 系统/编辑器杂项
 Thumbs.db
 desktop.ini
