@@ -1,0 +1,10 @@
+# dsh-deepseek-pricing bundle layer.
+# `name` is a package name resolved through the profile's node_modules, not a path.
+- insert:
+    - id: deepseek-pricing
+      name: dsh-deepseek-pricing
+      config:
+        tool: false
+        currency: CNY
+        refreshMinutes: 360
+        holidayRefresh: true
