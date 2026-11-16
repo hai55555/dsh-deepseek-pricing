@@ -10,11 +10,23 @@ DSH（DeepSeek Harness）插件：在输入框工具栏显示 DeepSeek API 当�
 
 ## 安装
 
+最省事的方式是在 DSH 里点几下：
+
+1. 左侧栏点 **插件**；
+2. 右上角点 **添加插件**；
+3. 输入框里填 `dsh-deepseek-pricing`，安装源保持默认的 **npm 官方源**；
+4. 点 **安装**，装好后重启一次 DSH。
+
+![侧栏里的插件入口](https://raw.githubusercontent.com/hai55555/dsh-deepseek-pricing/main/assets/install-1.png)
+
+![在「添加插件」里输入包名](https://raw.githubusercontent.com/hai55555/dsh-deepseek-pricing/main/assets/install-2.png)
+
+也可以走命令行：
+
 ```sh
 dsh plugin --profile <profile名> add dsh-deepseek-pricing
 ```
 
-或在 DSH 的 **插件（Plugins）→ 添加插件** 里输入包名 `dsh-deepseek-pricing`，装好后重启一次 DSH。
 从源码目录安装则把包名换成该目录的绝对路径。
 
 ## 计费时段规则
